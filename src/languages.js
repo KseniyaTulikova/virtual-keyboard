@@ -133,12 +133,12 @@ let firstRowEN = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'BackSpace',
-            type: 'BackSpace'
+            printValue: '',
+            displayValue: 'BackSpace'
 
         },
-        additional: null
+        additional: null,
+        type: 'BackSpace'
     }
 ];
 
@@ -243,22 +243,22 @@ let secondRowEN = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Del',
-            type: 'Del'
+            printValue: '',
+            displayValue: 'Del'
         },
-        additional: null
+        additional: null,
+        type: 'Del'
     }
 ];
 
 let thirdRowEN = [
     {
         main: {
-            printValue: null,
-            displayValue: 'CapsLock',
-            type: 'CapsLock'
+            printValue: '',
+            displayValue: 'CapsLock'
         },
-        additional: null
+        additional: null,
+        type: 'CapsLock'
     },
     {
         main: {
@@ -340,21 +340,21 @@ let thirdRowEN = [
     {
         main: {
             printValue: '\n',
-            displayValue: 'Enter',
-            type: 'Enter'
+            displayValue: 'Enter'
         },
-        additional: null
+        additional: null,
+        type: 'Enter'
     }
 ];
 
 let fourthRowEN = [
     {
         main: {
-            printValue: null,
-            displayValue: 'Shift',
-            type: 'Shift'
+            printValue: '',
+            displayValue: 'Shift'
         },
-        additional: null
+        additional: null,
+        type: 'Shift'
     },
     {
         main: {
@@ -435,36 +435,37 @@ let fourthRowEN = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Shift',
-            type: 'Shift'
+            printValue: '',
+            displayValue: 'Shift'
         },
-        additional: null
+        additional: null,
+        type: 'Shift'
     }
 ];
 
 let fifthRowEN = [
     {
         main: {
-            printValue: null,
+            printValue: '',
             displayValue: 'Ctrl'
         },
-        additional: null
+        additional: null,
+        type: 'Ctrl'
     },
     {
         main: {
-            printValue: null,
+            printValue: '',
             displayValue: 'Win'
         },
         additional: null
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Alt',
-            type: 'Alt'
+            printValue: '',
+            displayValue: 'Alt'
         },
-        additional: null
+        additional: null,
+        type: 'Alt'
     },
     {
         main: {
@@ -475,11 +476,11 @@ let fifthRowEN = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Alt',
-            type: 'Alt'
+            printValue: '',
+            displayValue: 'Alt'
         },
-        additional: null
+        additional: null,
+        type: 'Alt'
     },
     {
         main: {
@@ -504,10 +505,11 @@ let fifthRowEN = [
     },
     {
         main: {
-            printValue: null,
+            printValue: '',
             displayValue: 'Ctrl'
         },
-        additional: null
+        additional: null,
+        type: 'Ctrl'
     }
 ];
 
@@ -641,12 +643,12 @@ let firstRowRU = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'BackSpace',
-            type: 'BackSpace'
+            printValue: '',
+            displayValue: 'BackSpace'
 
         },
-        additional: null
+        additional: null,
+        type: 'BackSpace'
     }
 ];
 
@@ -751,22 +753,22 @@ let secondRowRU = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Del',
-            type: 'Del'
+            printValue: '',
+            displayValue: 'Del'
         },
-        additional: null
+        additional: null,
+        type: 'Del'
     }
 ];
 
 let thirdRowRU = [
     {
         main: {
-            printValue: null,
-            displayValue: 'CapsLock',
-            type: 'CapsLock'
+            printValue: '',
+            displayValue: 'CapsLock'
         },
-        additional: null
+        additional: null,
+        type: 'CapsLock'
     },
     {
         main: {
@@ -848,21 +850,21 @@ let thirdRowRU = [
     {
         main: {
             printValue: '\n',
-            displayValue: 'Enter',
-            type: 'Enter'
+            displayValue: 'Enter'
         },
-        additional: null
+        additional: null,
+        type: 'Enter'
     }
 ];
 
 let fourthRowRU = [
     {
         main: {
-            printValue: null,
-            displayValue: 'Shift',
-            type: 'Shift'
+            printValue: '',
+            displayValue: 'Shift'
         },
-        additional: null
+        additional: null,
+        type: 'Shift'
     },
     {
         main: {
@@ -946,36 +948,37 @@ let fourthRowRU = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Shift',
-            type: 'Shift'
+            printValue: '',
+            displayValue: 'Shift'
         },
-        additional: null
+        additional: null,
+        type: 'Shift'
     }
 ];
 
 let fifthRowRU = [
     {
         main: {
-            printValue: null,
+            printValue: '',
             displayValue: 'Ctrl'
         },
-        additional: null
+        additional: null,
+        type: 'Ctrl'
     },
     {
         main: {
-            printValue: null,
+            printValue: '',
             displayValue: 'Win'
         },
         additional: null
     },
     {
         main: {
-            printValue: null,
+            printValue: '',
             displayValue: 'Alt',
-            type: 'Alt'
         },
-        additional: null
+        additional: null,
+        type: 'Alt'
     },
     {
         main: {
@@ -986,11 +989,11 @@ let fifthRowRU = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Alt',
-            type: 'Alt'
+            printValue: '',
+            displayValue: 'Alt'
         },
-        additional: null
+        additional: null,
+        type: 'Alt'
     },
     {
         main: {
@@ -1015,12 +1018,14 @@ let fifthRowRU = [
     },
     {
         main: {
-            printValue: null,
-            displayValue: 'Ctrl'
+            printValue: '',
+            displayValue: 'Ctrl',
+            type: 'Ctrl'
         },
         additional: null
     }
 ];
+
 const KEYBOARD_LANGUAGES = {
     'en': [firstRowEN, secondRowEN, thirdRowEN, fourthRowEN, fifthRowEN],
     'ru': [firstRowRU, secondRowRU, thirdRowRU, fourthRowRU, fifthRowRU]
